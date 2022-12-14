@@ -1,0 +1,39 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "backend/server.js",
+  "engines": {
+    "node": "16.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend npm run build--prefix frontend"
+  },
+  "author": "Manogaran S A",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.1",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.7",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "stripe": "^10.2.0",
+    "validator": "^13.7.0",
+    "xxxx": "^3.0.4"
+  }
+}

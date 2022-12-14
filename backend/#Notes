@@ -1,0 +1,20 @@
+npm init
+package name: (shop-24x7) ecommerce
+entry point: (index.js) backend/server.js
+
+npm i express mongoose dotenv
+
+
+npm i nodemon
+
+
+For user authentication
+
+npm i bcryptjs jsonwebtoken validator nodemailer cookie-parser body-parser
+
+
+Instal React
+
+npx create-react-app .
+
+npm i axios react-alert react-alert-template-basic react-helmet react-redux redux redux-thunk redux-devtools-extension
