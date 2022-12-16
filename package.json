@@ -4,7 +4,7 @@
   "description": "",
   "main": "backend/server.js",
   "engines": {
-    "node": "16.2.5"
+    "node": "16.3.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
